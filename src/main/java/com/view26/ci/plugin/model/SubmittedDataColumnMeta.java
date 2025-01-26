@@ -2,11 +2,7 @@ package com.view26.ci.plugin.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import hudson.tasks.junit.CaseResult;
-import org.kohsuke.stapler.DataBoundConstructor;
-
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * @author aneeshia

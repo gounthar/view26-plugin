@@ -6,15 +6,10 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.view26.ci.plugin.model.AutomationTestResult;
-import com.view26.ci.plugin.model.SubmittedDataColumnMeta;
-import net.sf.json.JSONObject;
 import org.apache.commons.lang.StringUtils;
 
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;

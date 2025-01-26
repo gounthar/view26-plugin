@@ -1,13 +1,16 @@
 package com.view26.ci.plugin;
 
 import com.view26.ci.plugin.exception.SubmittedException;
-import com.view26.ci.plugin.model.*;
+import com.view26.ci.plugin.model.AutomationTestResult;
+import com.view26.ci.plugin.model.Configuration;
+import com.view26.ci.plugin.model.SubmittedData;
 import com.view26.ci.plugin.utils.ClientRequestException;
 import com.view26.ci.plugin.utils.HttpClientUtils;
 import com.view26.ci.plugin.utils.JsonUtils;
 import com.view26.ci.plugin.utils.ResponseEntity;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
 
 /**
